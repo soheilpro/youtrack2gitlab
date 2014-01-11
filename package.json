@@ -1,0 +1,37 @@
+{
+  "name": "youtrack2gitlab",
+  "version": "1.0.0",
+  "description": "Import YouTrack issues into GitLab.",
+  "dependencies": {
+    "async": "~0.2.9",
+    "colors": "~0.6.2",
+    "csv": "~0.3.6",
+    "optimist": "~0.6.0",
+    "restler": "~3.1.0",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "main": "yt2gl.js",
+  "bin" : {
+    "yt2gl" : "./yt2gl.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soheilpro/youtrack2gitlab"
+  },
+  "bugs": {
+    "url": "https://github.com/soheilpro/youtrack2gitlab/issues"
+  },
+  "keywords": [
+    "gitlab",
+    "youtrack",
+    "issue"
+  ],
+  "author": "Soheil Rashidi",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
